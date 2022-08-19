@@ -1,0 +1,23 @@
+body{
+    background: #43609C;
+}
+.logo-f{
+    background: #fff;
+    border-radius: 9%;
+    display: block;
+    height: 100px;
+    left: 50%;
+    margin: -51px 0 0 -49px;
+    position: absolute;
+    top: 50%;
+    width: 100px;
+}
+.logo-f::after{
+    color: #43609C;
+    content: "f";
+    display: block;
+    font-family: Facebook Letter Faces, Arial;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 6% 0 0 50%;
+}
